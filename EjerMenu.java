@@ -1,4 +1,4 @@
-//Primer Ejercicio2
+//Primer Ejercicio
 import javax.swing.JOptionPane;
 public class EjerMenu
 {

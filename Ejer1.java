@@ -7,6 +7,9 @@ public class Ejer1
         int numero=0;
         int suma=0;
         
+        double p=96.5;
+        System.out.println(Math.round(p));
+        
         for(int i=0;i<3;i++)
         {
             String entrada=JOptionPane.showInputDialog("Ingrese un Numero");

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Exa
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=msg\ mayor
+comment2.target=java.lang.String\ pedirCadena(java.lang.String,\ int)
+comment3.params=c
+comment3.target=void\ invertir(java.lang.String)
+comment4.params=cadena
+comment4.target=int\ numero_caracteres(java.lang.String)
+comment5.params=cadena
+comment5.target=void\ ultima_letra(java.lang.String)
+comment6.params=msg
+comment6.target=void\ mensaje(java.lang.String)
+numComments=7

@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 public class Exa
 {
     //Variable Global
-    static String salida="";
+    public static String salida="";
     public static void main(String args[])
     {
         String cadena=pedirCadena("Ingrese una Cadena mayor a 10 caracteres",10);

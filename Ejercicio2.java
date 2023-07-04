@@ -3,7 +3,18 @@ public class Ejercicio2
 {
     public static void main(String args[])
     {
-        int a[]=new int[5];
+        //int a[]=new int[5];
+        int a[]=new int[0];
+        
+        int op=1;
+        if(op==1)
+        {
+            //int t=pedirEntero("De que tamanio sera el arreglo");
+            //a=new int[t];
+            //a=new int[5];
+        }
+        
+        
         llenar(a,5);
         String s=imprimir(a);
         mensaje(s);

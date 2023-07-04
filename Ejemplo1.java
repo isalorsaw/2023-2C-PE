@@ -1,33 +1,16 @@
-
-/**
- * Write a description of class Ejemplo1 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+/*
+  Mostrar una Imagen Cualquiera en Java sobre un MessageDialog 
+  iconarchive.com
+  flaticon.es
+*/
+import javax.swing.JOptionPane;
+import javax.swing.ImageIcon;
 public class Ejemplo1
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Ejemplo1
-     */
-    public Ejemplo1()
+    public static void main(String args[])
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        ImageIcon icono=new ImageIcon(Ejemplo1.class.getResource("Imagenes/perro.png"));
+        JOptionPane.showMessageDialog(null,"Inormacion de la Pregunta","Pregunta1",
+        JOptionPane.INFORMATION_MESSAGE,icono);
     }
 }
